@@ -73,7 +73,7 @@ public class SerialPortList {
     //since 2.1.0 -> Fully rewrited port name comparator
     private static final Comparator<String> PORTNAMES_COMPARATOR = new Comparator<String>() {
 
-        @Override
+        //@Override
         public int compare(String valueA, String valueB) {
 
             if(valueA.equalsIgnoreCase(valueB)){
